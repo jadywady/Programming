@@ -1,0 +1,352 @@
+@font-face {
+    font-family: genshin-font;
+    src: url(images/font/Montserrat-VariableFont_wght.ttf);
+}
+*{
+  font-family: genshin-font;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121b2a;
+    /* background-image: url(images/backgrounds/pagebackground.jpg); */
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: initial;
+    font-family: genshin-font;
+
+
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: -1;
+
+}
+.website-body{
+  background-color: #121b2a;
+}
+
+
+/* #------------------------------whole page---------------------------------------- */
+#background,
+#middleground,
+#frontground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 20%;
+    overflow: hidden;
+}
+
+#logo{
+    position: absolute; 
+    top: 130px;
+    width: min(100vh, 80%);
+    z-index: 0;
+  }
+  /* #------------------------------parallax head---------------------------------------- */
+  
+  /* reference */
+  /* www.youtube.com. (n.d.). Html Css Angled Div Shape - Slanted / Skewed / Razor-Blade div Shape - Pure Css Tutorial. [online] Available at: https://www.youtube.com/watch?v=A11xEtSNDr8&t=305s [Accessed 25 Jan. 2024]. */
+
+  @media (max-width: 800px) {
+  .welcome-content p{
+    font-size: 15px;
+    margin-top: 15px;
+  }
+}
+.welcome-teyvat{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  box-sizing: border-box;
+}
+.welcome-teyvat{
+  background: #121b2a;
+}  
+.welcome-content {
+  flex: 0.4;
+  padding: 20px;
+  color: white;
+}
+.welcome-content h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.welcome-content p {
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  /* font-weight: 300; */
+}
+@media (max-width: 800px) {
+  .welcome-content h1 {
+      text-align: center;
+      font-size: 1.5em;
+    }
+    
+    .welcome-content p {
+      margin-top: 20px;
+      font-size: 15px;
+      line-height: 30px;
+      /* font-weight: 300; */
+    }
+  }
+.welcome-teyvat-pic{
+    flex: 0.6;
+    height: 100%;
+    background: url("images/reigons/fontaine.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+
+/* #------------------------------teyvat intro---------------------------------------- */
+
+.elements{
+  padding: 20px;
+  display: flex;
+  overflow-x: auto;
+  position: relative;
+  /* background-color: #121b2a; */
+  justify-content: center;
+  }
+
+.elements-pic{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  object-fit: cover;
+  border-radius: 25px;
+  position: relative;
+}
+
+.anemo-content,
+.geo-content,
+.electro-content,
+.dendro-content,
+.hydro-content,
+.pyro-content,
+.cryo-content{
+
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  border-radius: 25px;
+
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+  top:20px;
+}
+.anemo-content:hover,
+.geo-content:hover,
+.electro-content:hover,
+.dendro-content:hover,
+.hydro-content:hover,
+.pyro-content:hover,
+.cryo-content:hover{
+  opacity: 1;
+}
+
+.element-info-card {
+  margin: auto;
+  text-align: center;
+  width: 700px;
+  height: 250px;
+  background: white;
+  border-radius: 10px;
+ }
+#element-title{
+  padding-top: 20px;
+  font-size: 30px;
+ }
+#element-description{
+  padding: 50px;
+}
+ 
+ 
+/* #------------------------------elements description---------------------------------------- */
+
+/* reference
+www.youtube.com. (n.d.). Amazing Gallery Hover Effect with Grid in Html & CSS. [online] Available at: https://www.youtube.com/watch?v=-9vp6PyBZdE&list=PLB9Z9CmiKpA5SbDONq3krEHxCVV5V2jdj&index=9 [Accessed 25 Jan. 2024].
+ */
+
+@media (max-width: 800px) {
+
+  .archon-nav{
+    width: 100%;
+    height: auto
+  }
+}
+.archon-nav-title{
+  color: white;
+  text-align: center;
+}
+.archon-nav-container {
+	display: grid;
+	place-content: center;
+	min-height: 80vh;
+	background: #121b2a;
+}
+
+.archon-nav{
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	gap: 1em;
+	width: 800px;
+	height: 500px;
+	transition: all 400ms;
+  margin:auto;
+}
+
+.archon-nav:hover .archon {
+	filter: grayscale(100%) opacity(24%);
+}
+
+.archon {
+    cursor: pointer;
+	position: relative;
+	background: var(--img) top center;
+	background-size: cover;
+	transition: all 250ms;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.archon-nav .archon:hover {
+	filter: grayscale(0%) opacity(100%);
+}
+.archon-nav:has(.venti:hover) {
+	grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+}
+.archon-nav:has(.zhongli:hover) {
+	grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+}
+.archon-nav:has(.raiden:hover) {
+	grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+}
+.archon-nav:has(.nahida:hover) {
+	grid-template-columns: 1fr 1fr 1fr 3fr 1fr;
+}
+.archon-nav:has(.furina:hover) {
+	grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+}
+
+.archon::after{
+	content: attr(data-text);
+	position: absolute;
+	bottom: 20px;
+	background: black;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	transform: translateY(60px);
+	opacity: 0;
+	transition: all 200ms;
+}
+.archon:hover::after {
+	transform: translateY(0);
+	opacity: 1;
+	transition-delay: 250ms;
+} 
+
+/* #------------------------------archon-navigation---------------------------------------- */
+@media (max-width: 800px) {
+  .archon-container{
+    flex-direction: column;
+  }
+  #archon-video{
+    width: 100%;
+    padding-left: 0;
+  }
+}
+.archon-container{
+  display: flex;
+  min-height: 500px;
+  color: #121b2a;
+  padding: 20px;
+  padding-top: 110px;
+}
+#archon-video{
+
+  height: 480px;
+  width: 854px;
+}
+.video-border{
+  background-color: black;
+  height: 485px;
+  width: 859px;
+}
+.archon-description{
+    padding: 40px;
+    background-color: #121b2a;
+    color: white;
+}
+.btn_container{
+  font-size: 30px;
+}
+
+/* #------------------------------archon-intros---------------------------------------- */
+#map{
+  width: 70%; 
+  height: 600px;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  #map{
+    width: 500px;
+  }
+}
+.map-container{
+  padding: 100px;
+}
+.map-title{
+  text-align: center;
+  font-size: 50px;
+  color:white;
+}
+/* #------------------------------region map---------------------------------------- */
+
+.table-container{
+  min-height: 500px;
+  background-color: #121b2a;
+}
+#table{
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+}
+th{
+  height: 50px;
+}
+
+/* #------------------------------table of characters---------------------------------------- */
+/* .footer img{
+  align-self: center;
+  width: 300px;
+  height: auto;
+} */
+
+.final{
+  width: 50%;
+  height: auto;
+  padding: auto;
+  margin: auto;
+}

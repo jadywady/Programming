@@ -1,0 +1,448 @@
+[
+    {
+        "name": "Albedo",
+        "element": "Geo",
+        "region": "Mondstadt",
+        "character_img": "character_img/albedo.png"
+    },
+    {
+        "name": "Alhaitham",
+        "element": "Dendro",
+        "region": "Sumeru",
+        "character_img": "character_img/alhaitham.png"
+        
+    },
+    {
+        "name": "Amber",
+        "element": "Pyro",
+        "region": "Mondstadt",
+        "character_img": "character_img/amber.png"
+
+    },
+    {
+        "name": "Arataki Itto",
+        "element": "Geo",
+        "region": "Inazuma",
+        "character_img": "character_img/itto.png"
+    },
+    {
+        "name": "Baizhu",
+        "element": "Dendro",
+        "region": "Liyue",
+        "character_img": "character_img/baizhu.png"
+    },
+    {
+        "name": "Barbara",
+        "element": "Hydro",
+        "region": "Mondstadt",
+        "character_img": "character_img/barbara.png"
+    },
+    {
+        "name": "Beidou",
+        "element": "Electro",
+        "region": "Liyue",
+        "character_img": "character_img/beidou.png"
+    },
+    {
+        "name": "Bennett",
+        "element": "Pyro",
+        "region": "Mondstadt",
+        "character_img": "character_img/bennett.png"
+    },
+    {
+        "name": "Candace",
+        "element": "Hydro",
+        "region": "Sumeru",
+        "character_img": "character_img/candace.png"
+    },
+    {
+        "name": "Charlotte",
+        "element": "Cryo",
+        "region": "Fontaine",
+        "character_img": "character_img/charlotte.png"
+    },
+    {
+        "name": "Chevreuse",
+        "element": "Pyro",
+        "region": "Fontaine",
+        "character_img": "character_img/chevreuse.png"
+    },
+    {
+        "name": "Chongyun",
+        "element": "Cryo",
+        "region": "Liyue",
+        "character_img": "character_img/chongyun.png"
+    },
+    {
+        "name": "Collei",
+        "element": "Dendro",
+        "region": "Sumeru",
+        "character_img": "character_img/collei.png"
+    },
+    {
+        "name": "Cyno",
+        "element": "Electro",
+        "region": "Sumeru",
+        "character_img": "character_img/cyno.png"
+    },
+    {
+        "name": "Dehya",
+        "element": "Pyro",
+        "region": "Sumeru",
+        "character_img": "character_img/dehya.png"
+    },
+    {
+        "name": "Diluc",
+        "element": "Pyro",
+        "region": "Mondstadt",
+        "character_img": "character_img/diluc.png"
+    },
+    {
+        "name": "Diona",
+        "element": "Cryo",
+        "region": "Mondstadt",
+        "character_img": "character_img/diona.png"
+    },
+    {
+        "name": "Dori",
+        "element": "Electro",
+        "region": "Sumeru",
+        "character_img": "character_img/dori.png"
+    },
+    {
+        "name": "Eula",
+        "element": "Cryo",
+        "region": "Mondstadt",
+        "character_img": "character_img/eula.png"
+    },
+    {
+        "name": "Faruzan",
+        "element": "Anemo",
+        "region": "Sumeru",
+        "character_img": "character_img/faruzan.png"
+    },
+    {
+        "name": "Fischl",
+        "element": "Electro",
+        "region": "Mondstadt",
+        "character_img": "character_img/fischl.png"
+    },
+    {
+        "name": "Freminet",
+        "element": "Cryo",
+        "region": "Fontaine",
+        "character_img": "character_img/freminet.png"
+    },
+    {
+        "name": "Furina",
+        "element": "Hydro",
+        "region": "Fontaine",
+        "character_img": "character_img/furina.png"
+    },
+    {
+        "name": "Ganyu",
+        "element": "Cryo",
+        "region": "Liyue",
+        "character_img": "character_img/ganyu.png"
+    },
+    {
+        "name": "Gorou",
+        "element": "Geo",
+        "region": "Inazuma",
+        "character_img": "character_img/gorou.png"
+    },
+    {
+        "name": "Hu Tao",
+        "element": "Pyro",
+        "region": "Liyue",
+        "character_img": "character_img/hutao.png"
+    },
+    {
+        "name": "Jean",
+        "element": "Anemo",
+        "region": "Mondstadt",
+        "character_img": "character_img/jean.png"
+    },
+    {
+        "name": "Kaedehara Kazuha",
+        "element": "Anemo",
+        "region": "Inazuma",
+        "character_img": "character_img/kazuha.png"
+    },
+    {
+        "name": "Kaeya",
+        "element": "Cryo",
+        "region": "Mondstadt",
+        "character_img": "character_img/kaeya.png"
+    },
+    {
+        "name": "Kamisato Ayaka",
+        "element": "Cryo",
+        "region": "Inazuma",
+        "character_img": "character_img/ayaka.png"
+    },
+    {
+        "name": "Kamisato Ayato",
+        "element": "Hydro",
+        "region": "Inazuma",
+        "character_img": "character_img/ayato.png"
+    },
+    {
+        "name": "Kaveh",
+        "element": "Dendro",
+        "region": "Sumeru",
+        "character_img": "character_img/kaveh.png"
+    },
+    {
+        "name": "Keqing",
+        "element": "Electro",
+        "region": "Liyue",
+        "character_img": "character_img/keqing.png"
+    },
+    {
+        "name": "Kirara",
+        "element": "Dendro",
+        "region": "Inazuma",
+        "character_img": "character_img/kirara.png"
+    },
+    {
+        "name": "Klee",
+        "element": "Pyro",
+        "region": "Mondstadt",
+        "character_img": "character_img/klee.png"
+    },
+    {
+        "name": "Kujou Sara",
+        "element": "Electro",
+        "region": "Inazuma",
+        "character_img": "character_img/sara.png"
+    },
+    {
+        "name": "Kuki Shinobu",
+        "element": "Electro",
+        "region": "Inazuma",
+        "character_img": "character_img/kuki.png"
+    },
+    {
+        "name": "Layla",
+        "element": "Cryo",
+        "region": "Sumeru",
+        "character_img": "character_img/layla.png"
+    },
+    {
+        "name": "Lisa",
+        "element": "Electro",
+        "region": "Mondstadt",
+        "character_img": "character_img/lisa.png"
+    },
+    {
+        "name": "lynette",
+        "element": "Anemo",
+        "region": "Fontaine",
+        "character_img": "character_img/lynette.png"
+    },
+    {
+        "name": "Lyney",
+        "element": "Pyro",
+        "region": "Fontaine",
+        "character_img": "character_img/lyney.png"
+    },
+    {
+        "name": "Mika",
+        "element": "Cryo",
+        "region": "Mondstadt",
+        "character_img": "character_img/mika.png"
+    },
+    {
+        "name": "Mona",
+        "element": "Hydro",
+        "region": "Mondstadt",
+        "character_img": "character_img/mona.png"
+    },
+    {
+        "name": "Nahida",
+        "element": "Dendro",
+        "region": "Sumeru",
+        "character_img": "character_img/nahida.png"
+    },
+    {
+        "name": "Navia",
+        "element": "Geo",
+        "region": "Fontaine",
+        "character_img": "character_img/navia.png"
+    },
+    {
+        "name": "Neuvillette",
+        "element": "Hydro",
+        "region": "Fontaine",
+        "character_img": "character_img/neuvillette.png"
+    },
+    {
+        "name": "Nilou",
+        "element": "Hydro",
+        "region": "Sumeru",
+        "character_img": "character_img/nilou.png"
+    },
+    {
+        "name": "Ningguang",
+        "element": "Geo",
+        "region": "Liyue",
+        "character_img": "character_img/ningguang.png"
+    },
+    {
+        "name": "Noelle",
+        "element": "Geo",
+        "region": "Mondstadt",
+        "character_img": "character_img/noelle.png"
+    },
+    {
+        "name": "Qiqi",
+        "element": "Cryo",
+        "region": "Liyue",
+        "character_img": "character_img/qiqi.png"
+    },
+    {
+        "name": "Raiden Shogun",
+        "element": "Electro",
+        "region": "Inazuma",
+        "character_img": "character_img/raiden.png"
+    },
+    {
+        "name": "Razor",
+        "element": "Electro",
+        "region": "Mondstadt",
+        "character_img": "character_img/razor.png"
+    },
+    {
+        "name": "Rosaria",
+        "element": "Cryo",
+        "region": "Mondstadt",
+        "character_img": "character_img/rosaria.png"
+    },
+    {
+        "name": "Sangonomiya Kokomi",
+        "element": "Hydro",
+        "region": "Inazuma",
+        "character_img": "character_img/kokomi.png"
+    },
+    {
+        "name": "Sayu",
+        "element": "Anemo",
+        "region": "Inazuma",
+        "character_img": "character_img/sayu.png"
+    },
+    {
+        "name": "Shenhe",
+        "element": "Cryo",
+        "region": "Liyue",
+        "character_img": "character_img/shenhe.png"
+    },
+    {
+        "name": "Shikanoin Heizou",
+        "element": "Anemo",
+        "region": "Inazuma",
+        "character_img": "character_img/heizou.png"
+    },
+    {
+        "name": "Sucrose",
+        "element": "Anemo",
+        "region": "Mondstadt",
+        "character_img": "character_img/sucrose.png"
+    },
+    {
+        "name": "Thoma",
+        "element": "Pyro",
+        "region": "Inazuma",
+        "character_img": "character_img/thoma.png"
+    },
+    {
+        "name": "Tighnari",
+        "element": "Dendro",
+        "region": "Sumeru",
+        "character_img": "character_img/tighnari.png"
+    },
+    {
+        "name": "Venti",
+        "element": "Anemo",
+        "region": "Mondstadt",
+        "character_img": "character_img/venti.png"
+    },
+    {
+        "name": "Wanderer",
+        "element": "Anemo",
+        "region": "Sumeru",
+        "character_img": "character_img/wanderer.png"
+    },
+    {
+        "name": "Wriothesley",
+        "element": "Cryo",
+        "region": "Fontaine",
+        "character_img": "character_img/wriothesley.png"
+    },
+    {
+        "name": "Xiangling",
+        "element": "Pyro",
+        "region": "Liyue",
+        "character_img": "character_img/xiangling.png"
+    },
+    {
+        "name": "Xiao",
+        "element": "Anemo",
+        "region": "Liyue",
+        "character_img": "character_img/xiao.png"
+    },
+    {
+        "name": "Xingqiu",
+        "element": "Hydro",
+        "region": "Liyue",
+        "character_img": "character_img/xingqiu.png"
+    },
+    {
+        "name": "Xinyan",
+        "element": "Pyro",
+        "region": "Liyue",
+        "character_img": "character_img/xinyan.png"
+    },
+    {
+        "name": "Yae Miko",
+        "element": "Electro",
+        "region": "Inazuma",
+        "character_img": "character_img/yaemiko.png"
+    },
+    {
+        "name": "Yanfei",
+        "element": "Pyro",
+        "region": "Liyue",
+        "character_img": "character_img/yangfei.png"
+    },
+    {
+        "name": "Yaoyao",
+        "element": "Dendro",
+        "region": "Liyue",
+        "character_img": "character_img/yaoyao.png"
+    },
+    {
+        "name": "Yelan",
+        "element": "Hydro",
+        "region": "Liyue",
+        "character_img": "character_img/yelan.png"
+    },
+    {
+        "name": "Yoimiya",
+        "element": "Pyro",
+        "region": "Inazuma",
+        "character_img": "character_img/yoimiya.png"
+    },
+    {
+        "name": "Yun Jin",
+        "element": "Geo",
+        "region": "Liyue",
+        "character_img": "character_img/yunjin.png"
+    },
+    {
+        "name": "Zhongli",
+        "element": "Geo",
+        "region": "Liyue",
+        "character_img": "character_img/zhongli.png"
+    }
+]

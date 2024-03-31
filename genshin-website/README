@@ -1,0 +1,40 @@
+Hello! This is Jade, Wong Zi Ling (001124979, mrqk68).
+This website is based off on my favourite video game, Genshin Impact. 
+It will introduce the basics of Teyvat and its seven regions, characters and archons.
+Very geeky, I know. 
+
+
+-------how to open
+open with live preview (extension in vscode) or else the json doc will not work!
+open index.html and done!
+
+-------description of every section:
+1. paralax effect header
+this was done firstly in photoshop, where i seperated an image into three layers, then overlap them.
+javascript was used to make them move in different speed as the user scrolls.
+
+2. teyvat intro
+just a short introduction of teyvat with angled div made from css.
+
+3. map of teyvat
+used a high quality image of the in-game map and with the leaflet module, a simple map with markers was made.
+Nevermind, I tried submitting it but the file was way too big so I linked the online image instead. 
+
+4. elements introduction
+a flexbox of elements and a glow version of each which can only be seen when hovered. While hovered, a description will be shown in the box below.
+
+5. in-dept archon description
+original video only starts playing when in view, loads new vid and description according to button pressed.
+
+6. Archon overview
+used css grids. when hover, it will take more of the grid, looks cool, learnt it from youtube.
+
+7. json all characters
+genshin has over 70 characters, their names, element and region are in a seperate json file which the user can see through the table. a dropdown menu allows user to chose to see which regions of characters they want to see.
+
+
+
+Thank you for going through my website! It took so long and i restarted many times but it was fun hehe
+I hope you liked it.
+
+

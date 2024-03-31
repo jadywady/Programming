@@ -1,0 +1,149 @@
+commit 51b21cfb9766680d0cafcce7877d892d84bbb623
+Author: jadywady <jadywady714@gmail.com>
+Date:   Thu Jan 25 03:25:00 2024 +0000
+
+    final jsdoc out
+
+commit 12947aae1cf1233760639fcc8faef1bf269b07ed
+Author: jadywady <jadywady714@gmail.com>
+Date:   Thu Jan 25 03:21:00 2024 +0000
+
+    organize image files
+
+commit 8220357e66f7b4fb153e298773f2a933f1fbcd4d
+Author: jadywady <jadywady714@gmail.com>
+Date:   Thu Jan 25 03:00:58 2024 +0000
+
+    harvard citations
+
+commit 548822983d59fe8a5bc17c1b01947460ef388899
+Author: jadywady <jadywady714@gmail.com>
+Date:   Thu Jan 25 00:10:04 2024 +0000
+
+    moved the map js from html to the proper js file
+
+commit 8fc35915c25266cdf0b595dc0bf3437b3093be02
+Author: jadywady <jadywady714@gmail.com>
+Date:   Wed Jan 24 23:04:20 2024 +0000
+
+    edit padding
+
+commit d0d2de208ffbc88917bfe80ef69e15854817e7a6
+Author: jadywady <jadywady714@gmail.com>
+Date:   Wed Jan 24 17:12:19 2024 +0000
+
+    map implemented
+
+commit d7072a2ecd291e19b5909da9c61043bb7a700d8a
+Author: jadywady <jadywady714@gmail.com>
+Date:   Wed Jan 24 10:50:57 2024 +0000
+
+    moving files
+
+commit 298b439552dc63dadf7619ac3b0057c383cdb197
+Author: jadywady <jadywady714@gmail.com>
+Date:   Tue Jan 23 23:59:46 2024 +0000
+
+    mouse hover element description
+
+commit 3574cfafdf33f87da34312c1af3735f8dd6643c1
+Author: jadywady <jadywady714@gmail.com>
+Date:   Tue Jan 23 12:00:05 2024 +0000
+
+    working jsdoc out html file
+
+commit 48ba1f81f0e38f9af76c4a447865cd518d83c952
+Author: jadywady <jadywady714@gmail.com>
+Date:   Mon Jan 22 23:17:08 2024 +0000
+
+    jsonfile
+
+commit 88bff97c4cd222993415bd93039dd186899e5984
+Author: jadywady <jadywady714@gmail.com>
+Date:   Mon Jan 22 21:53:18 2024 +0000
+
+    elements-hover effect
+
+commit 80f666b6db35e66722d767be51a7e5d8a26b3052
+Author: jadywady <jadywady714@gmail.com>
+Date:   Sun Jan 21 23:32:56 2024 +0000
+
+    basically restarting everything
+
+commit 1ff9ae7a0865552aea6a77d9a10461e9836a57e8
+Author: jadywady <jadywady714@gmail.com>
+Date:   Sun Jan 21 00:59:42 2024 +0000
+
+    eslint files
+
+commit 3650e078e08cedfc890fe4ce891ae42c5dca23d6
+Author: jadywady <jadywady714@gmail.com>
+Date:   Sun Jan 21 00:35:45 2024 +0000
+
+    file clean up
+
+commit 0603a8b1513105b88f9f45e38dce5a9d27b348df
+Author: jadywady <jadywady714@gmail.com>
+Date:   Sun Jan 21 00:23:08 2024 +0000
+
+    confusion,tired, why is jsdoc not working
+
+commit 046193c71d1e0fa5c159a81f369d3daae1102469
+Author: jadywady <jadywady714@gmail.com>
+Date:   Sat Jan 20 23:09:04 2024 +0000
+
+    this is when i decided i should redo everything :)
+
+commit 4a8b04d5291bf0b76c2c1cc371237e1d8017a19d
+Author: jadywady <jadywady714@gmail.com>
+Date:   Sat Jan 20 14:37:07 2024 +0000
+
+    new-pages+archon-vids
+
+commit 36bdaf7d45fa1a19d0bc1daee2b44afbb44ff93f
+Author: jadywady <jadywady714@gmail.com>
+Date:   Fri Jan 19 22:04:20 2024 +0000
+
+    screenshot slideshow+tidying folders
+
+commit 7cf316c61ff9f7a39f0ac6a90176e597195e27e8
+Author: jadywady <jadywady714@gmail.com>
+Date:   Wed Jan 17 14:28:41 2024 +0000
+
+    slideshow set up
+
+commit cdbb3001c966b0404afabac21c30fede8aecb3c3
+Author: jadywady <jadywady714@gmail.com>
+Date:   Sun Jan 14 20:53:45 2024 +0000
+
+    elements_navigation
+
+commit 06ac0fb0b1804920fa5d87f50239624e16a3282c
+Author: jadywady <jadywady714@gmail.com>
+Date:   Fri Jan 12 14:10:13 2024 +0000
+
+    element_navigation
+
+commit f3a10dab4991f8aa71f82909bc253ae27c3d0aa9
+Author: jadywady <jadywady714@gmail.com>
+Date:   Thu Jan 11 13:34:27 2024 +0000
+
+    organize files
+
+commit b4199efda33ccae6f129d9aec2f1dfe2c0cf582d
+Author: jadywady <jadywady714@gmail.com>
+Date:   Wed Dec 13 18:28:03 2023 +0800
+
+    parallex
+
+commit 328fef47a46f89badf2f70c59105e664c020f27f
+Author: jadywady <jadywady714@gmail.com>
+Date:   Wed Dec 13 18:12:38 2023 +0800
+
+    organized files
+
+commit 4cd821bbcd296fd9f0036ae1b775ad3f0b2f9692
+Author: jadywady <jadywady714@gmail.com>
+Date:   Wed Dec 13 18:09:14 2023 +0800
+
+    first comit

@@ -1,0 +1,379 @@
+{
+    "characters": [
+      {
+        "domainName": "Violet Court",
+        "rotation": [
+          {
+            "day": "Monday",
+            "ids": [
+              "yoimiya",
+              "thoma",
+              "sangonomiya_kokomi",
+              "shikanoin_heizou",
+              "kirara"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "ids": [
+              "kamisato_ayaka",
+              "kujou_sara",
+              "arataki_itto",
+              "kuki_shinobu",
+              "kamisato_ayato"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "ids": [
+              "raiden_shogun",
+              "sayu",
+              "gorou",
+              "yae_miko",
+              "chiori",
+              "traveler_electro"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "ids": [
+              "yoimiya",
+              "thoma",
+              "sangonomiya_kokomi",
+              "shikanoin_heizou",
+              "kirara"
+            ]
+          },
+          {
+            "day": "Friday",
+            "ids": [
+              "kamisato_ayaka",
+              "kujou_sara",
+              "arataki_itto",
+              "kuki_shinobu",
+              "kamisato_ayato"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "ids": [
+              "raiden_shogun",
+              "sayu",
+              "gorou",
+              "yae_miko",
+              "chiori",
+              "traveler_electro"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "ids": [
+              "kamisato_ayaka",
+              "yoimiya",
+              "thoma",
+              "raiden_shogun",
+              "sayu",
+              "sangonomiya_kokomi",
+              "gorou",
+              "kujou_sara",
+              "arataki_itto",
+              "yae_miko",
+              "shikanoin_heizou",
+              "kirara",
+              "kuki_shinobu",
+              "kamisato_ayato",
+              "chiori",
+              "traveler_electro"
+            ]
+          }
+        ]
+      },
+      {
+        "domainName": "Forsaken Rift",
+        "rotation": [
+          {
+            "day": "Monday",
+            "ids": [
+              "barbara",
+              "amber",
+              "klee",
+              "tartaglia",
+              "diona",
+              "sucrose",
+              "aloy"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "ids": ["jean", "diluc", "razor", "bennett", "noelle", "mona", "eula"]
+          },
+          {
+            "day": "Wednesday",
+            "ids": [
+              "lisa",
+              "kaeya",
+              "venti",
+              "fischl",
+              "albedo",
+              "rosaria",
+              "mika",
+              "traveler_anemo"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "ids": [
+              "barbara",
+              "amber",
+              "klee",
+              "tartaglia",
+              "diona",
+              "sucrose",
+              "aloy"
+            ]
+          },
+          {
+            "day": "Friday",
+            "ids": ["jean", "diluc", "razor", "bennett", "noelle", "mona", "eula"]
+          },
+          {
+            "day": "Saturday",
+            "ids": [
+              "lisa",
+              "kaeya",
+              "venti",
+              "fischl",
+              "albedo",
+              "rosaria",
+              "mika",
+              "traveler_anemo"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "ids": [
+              "jean",
+              "lisa",
+              "barbara",
+              "kaeya",
+              "diluc",
+              "razor",
+              "amber",
+              "venti",
+              "klee",
+              "fischl",
+              "bennett",
+              "tartaglia",
+              "noelle",
+              "albedo",
+              "diona",
+              "mona",
+              "sucrose",
+              "rosaria",
+              "eula",
+              "aloy",
+              "mika",
+              "traveler_anemo"
+            ]
+          }
+        ]
+      },
+      {
+        "domainName": "Taishan Mansion",
+        "rotation": [
+          {
+            "day": "Monday",
+            "ids": [
+              "xiao",
+              "ningguang",
+              "qiqi",
+              "keqing",
+              "yelan",
+              "shenhe",
+              "gaming"
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "ids": [
+              "xiangling",
+              "chongyun",
+              "ganyu",
+              "hu_tao",
+              "kaedehara_kazuha",
+              "yun_jin",
+              "yaoyao"
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "ids": [
+              "beidou",
+              "xingqiu",
+              "zhongli",
+              "xinyan",
+              "yanfei",
+              "baizhu",
+              "xianyun",
+              "traveler_geo"
+            ]
+          },
+          {
+            "day": "Thursday",
+            "ids": [
+              "xiao",
+              "ningguang",
+              "qiqi",
+              "keqing",
+              "yelan",
+              "shenhe",
+              "gaming"
+            ]
+          },
+          {
+            "day": "Friday",
+            "ids": [
+              "xiangling",
+              "chongyun",
+              "ganyu",
+              "hu_tao",
+              "kaedehara_kazuha",
+              "yun_jin",
+              "yaoyao"
+            ]
+          },
+          {
+            "day": "Saturday",
+            "ids": [
+              "beidou",
+              "xingqiu",
+              "zhongli",
+              "xinyan",
+              "yanfei",
+              "baizhu",
+              "xianyun",
+              "traveler_geo"
+            ]
+          },
+          {
+            "day": "Sunday",
+            "ids": [
+              "xiangling",
+              "beidou",
+              "xingqiu",
+              "xiao",
+              "ningguang",
+              "zhongli",
+              "qiqi",
+              "chongyun",
+              "ganyu",
+              "keqing",
+              "xinyan",
+              "hu_tao",
+              "kaedehara_kazuha",
+              "yanfei",
+              "yelan",
+              "shenhe",
+              "yun_jin",
+              "yaoyao",
+              "baizhu",
+              "gaming",
+              "xianyun",
+              "traveler_geo"
+            ]
+          }
+        ]
+      },
+      {
+        "domainName": "Steeple of Ignorance",
+        "rotation": [
+          {
+            "day": "Monday",
+            "ids": ["tighnari", "cyno", "candace", "faruzan"]
+          },
+          {
+            "day": "Tuesday",
+            "ids": ["dori", "nahida", "layla", "alhaitham", "kaveh"]
+          },
+          {
+            "day": "Wednesday",
+            "ids": ["collei", "nilou", "wanderer", "dehya"]
+          },
+          {
+            "day": "Thursday",
+            "ids": ["tighnari", "cyno", "candace", "faruzan"]
+          },
+          {
+            "day": "Friday",
+            "ids": ["dori", "nahida", "layla", "alhaitham", "kaveh"]
+          },
+          {
+            "day": "Saturday",
+            "ids": ["collei", "nilou", "wanderer", "dehya"]
+          },
+          {
+            "day": "Sunday",
+            "ids": [
+              "collei",
+              "dori",
+              "tighnari",
+              "nilou",
+              "cyno",
+              "candace",
+              "nahida",
+              "layla",
+              "wanderer",
+              "faruzan",
+              "alhaitham",
+              "dehya",
+              "kaveh"
+            ]
+          }
+        ]
+      },
+      {
+        "domainName": "Pale Forgotten Glory",
+        "rotation": [
+          {
+            "day": "Monday",
+            "ids": ["lyney", "neuvillette", "navia"]
+          },
+          {
+            "day": "Tuesday",
+            "ids": ["freminet", "charlotte", "furina"]
+          },
+          {
+            "day": "Wednesday",
+            "ids": ["lynette", "wriothesley", "chevreuse"]
+          },
+          {
+            "day": "Thursday",
+            "ids": ["lyney", "neuvillette", "navia"]
+          },
+          {
+            "day": "Friday",
+            "ids": ["freminet", "charlotte", "furina"]
+          },
+          {
+            "day": "Saturday",
+            "ids": ["lynette", "wriothesley", "chevreuse"]
+          },
+          {
+            "day": "Sunday",
+            "ids": [
+              "lynette",
+              "lyney",
+              "freminet",
+              "wriothesley",
+              "neuvillette",
+              "charlotte",
+              "furina",
+              "chevreuse",
+              "navia"
+            ]
+          }
+        ]
+      }
+    ]
+
+}

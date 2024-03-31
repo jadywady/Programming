@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Golden cats</title>
+</head>
+<body>
+
+    <script src="index.js" defer></script>
+
+<h1>Goldenness of feline beings</h1>
+
+<img width="100%" alt="Photo of cat by Tranmautritam: https://www.pexels.com/photo/gray-and-white-kitten-on-white-bed-2061057/" src="pexels-tranmautritam-2061057.jpg">
+
+<form id="cat_search_form">
+
+<p>Colour: <input name="colour"></p>
+</form>
+<div id="cat_search_results"></div>
+
+<h2>Big cat buttons</h2>
+
+<button size="really big" id="all_cats_button">Press me to get all the catty goodness</button>
+<div id="all_cats_results"></div>
+
+<h2>New cats</h2>
+
+<form method="POST" action="newcat" id = "new_cat_form">
+  name <input name="name">
+  breed <input name="breed">
+  age <input name="age">
+  colour <input name="colour">
+  <button type="submit">new cat</button>
+</form>
+
+</body>
+</html>

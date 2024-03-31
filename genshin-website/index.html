@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <header>
+        <img alt="header backgound" src="images/backgroundlayers/background.jpg" id="background">
+        <img alt="header backgound" src="images/backgroundlayers/middle.png" id="middleground">
+        <img alt="genshin impact logo" src="images/backgroundlayers/logo.png" id="logo"> 
+        <img alt="header backgound" src="images/backgroundlayers/mostfront.png" id="frontground"> 
+    </header>
+    
+    <div class="website-body">
+        
+        <div class="welcome-container">
+            <div class="welcome-teyvat">
+                <div class="welcome-content">
+                    <h1 class="welcome-title">TEYVAT</h1>
+                    <p>
+                        Genshin Impact is a video game that takes place in the fantasy world of Teyvat, home to seven nations. Each of which is tied to a different element ruled by a different god.
+                    </p>
+                    <p>
+                        People of Teyvat with particularly powerful desires who have the potential to ascend to Celestia are granted with visions which are items that allow their users to directly channel the power of one of the seven Elements. 
+                    </p>
+
+                </div>
+                <div class="welcome-teyvat-pic"></div>
+            </div>
+        </div>
+        <div class="map-container">
+            <h1 class="map-title">Map of Teyvat</h1>
+            <div id='map'></div>
+        </div>
+
+        <div class="elements">
+            <div class="anemo-stone">
+                <img  alt="anemo element" class="elements-pic" src="images/elements/Elements_Flat_Color/Element_Flat Color_Anemo.png">
+                <div class="anemo-content">
+                    <img class="anemo-glow" onmouseover="anemoInfo()" width=84px height=84px src="images/elements/Elements_Glow/Element_Glow_Anemo.png">
+                </div>
+            </div>
+            <div class="geo-stone">
+                <img alt="geo element" class="elements-pic" src="images/elements/Elements_Flat_Color/Element_Flat Color_Geo.png">
+                <div class="geo-content">
+                    <img class="geo-glow" onmouseover="geoInfo()" width=84px height=84px src="images/elements/Elements_Glow/Element_Glow_Geo.png">
+                </div>
+            </div>
+            <div class="electro-stone">
+                <img alt="electro element" class="elements-pic" src="images/elements/Elements_Flat_Color/Element_Flat Color_Electro.png">
+                <div class="electro-content">
+                    <img class="electro-glow" onmouseover="electroInfo()" width=84px height=84px src="images/elements/Elements_Glow/Element_Glow_Electro.png">
+                </div>
+            </div>
+            <div class="dendro-stone"> 
+                <img alt="dendro element" class="elements-pic" src="images/elements/Elements_Flat_Color/Element_Flat Color_Dendro.png">
+                <div class="dendro-content">
+                    <img class="dendro-glow" onmouseover="dendroInfo()" width=84px height=84px src="images/elements/Elements_Glow/Element_Glow_Dendro.png">
+                </div>
+            </div>
+            <div class="hydro-stone"> 
+                <img alt="hydro element" class="elements-pic" src="images/elements/Elements_Flat_Color/Element_Flat Color_Hydro.png">
+                <div class="hydro-content">
+                    <img class="hydro-glow" onmouseover="hydroInfo()" width=84px height=84px src="images/elements/Elements_Glow/Element_Glow_Hydro.png">
+                </div>
+            </div>
+            <div class="pyro-stone">
+                <img alt="pyro element" class="elements-pic" src="images/elements/Elements_Flat_Color/Element_Flat Color_Pyro.png">
+                <div class="pyro-content">
+                    <img class="pyro-glow" onmouseover="pyroInfo()" width=84px height=84px src="images/elements/Elements_Glow/Element_Glow_Pyro.png">
+                </div>
+            </div>
+            <div class="cryo-stone">
+                <img alt="cryo element" class="elements-pic" src="images/elements/Elements_Flat_Color/Element_Flat Color_Cryo.png">
+                <div class="cryo-content">
+                    <img class="cryo-glow" onmouseover="cryoInfo()" width=84px height=84px src="images/elements/Elements_Glow/Element_Glow_Cryo.png">
+                </div>
+            </div>
+        </div> 
+
+        <div class="element-info-card">
+
+            <h1 id="element-title">Hover on element to learn more</h1>
+            <p id="element-description"></p>
+
+        </div>
+          
+            <div class="archon-container">
+                <div class="video-border">
+                    <video id="archon-video" autoplay muted>
+                        <source id="archon-video-source" src="images/archons/furina.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="archon-description">
+                    <h1 id="archon-description-title">
+                        Furina
+                    </h1>
+                    <p id="archon-description-details">
+                        Furina de Fontaine is a playable Hydro character in Genshin Impact who can alternate between Pneuma and Ousia alignments.
+                        Introduced as the flamboyant and overconfident Hydro Archon, Furina's theatrics are eventually revealed to be a public persona, which she later discards in favor of living a much humbler life.
+                    </p>
+                    <div class="btn_container">
+                        <button id="venti-button" onclick="ventiIntro()" class="btn btn-outline-secondary">Anemo</button>
+                        <button id="zhongli-button" onclick="zhongliIntro()" class="btn btn-outline-secondary">Geo</button>
+                        <button id="raiden-button" onclick="raidenIntro()" class="btn btn-outline-secondary">Electro</button>
+                        <button id="nahida-button" onclick="nahidaIntro()" class="btn btn-outline-secondary">Dendro</button>
+                        <button id="furina-button" onclick="furinaIntro()" class="btn btn-outline-secondary">Hydro</button>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="archon-nav-container">
+                <h1 class="archon-nav-title">The Archons</h1>
+                <div class="archon-nav">
+                    <div class="archon venti" style="--img: url(images/archons/venti_card.png);" data-text="Venti"></div>
+                    <div class="archon zhongli" style="--img: url(images/archons/zhongli_card.png);" data-text="Zhongli"></div>
+                    <div class="archon raiden" style="--img: url(images/archons/raiden_card.png);" data-text="Raiden"></div>
+                    <div class="archon nahida" style="--img: url(images/archons/nahida_card.png);" data-text="Nahida"></div>
+                    <div class="archon furina" style="--img: url(images/archons/furina_card.png);" data-text="Furina"></div>
+                    
+                </div>
+            </div>
+
+        <select id="myselect" onchange="chosenRegion(this.value)">
+
+            <option value="">Choose an option:</option>
+            <option value="All_characters">All characters released so far</option>
+            <option value="Mondstadt">All characters from Mondstadt</option>
+            <option value="Liyue">All characters from Liyue</option>
+            <option value="Inazuma">All characters from Inazuma</option>
+            <option value="Sumeru">All characters from Sumeru</option>
+            <option value="Fontaine">All characters from Fontaine</option>
+
+        </select>
+        <div class="table container">
+          <table class="table" id="table">
+            <tr>
+                <th>CHARACTER NAMES</th>
+                <th>ELEMENT</th>
+                <th>REIGON</th>
+            </tr>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+    </div>
+</body>
+</html>
